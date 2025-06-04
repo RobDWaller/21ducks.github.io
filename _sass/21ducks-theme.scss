@@ -1,10 +1,10 @@
-@import "reset";
-@import "layout";
-@import "device";
-
 $base-color: rgb(24,150, 76);
 $base-background-color: rgb(24, 150, 76);
 $sub-background-color-one: rgb(217, 217, 217);
+
+@import "reset";
+@import "layout";
+@import "device";
 
 body {
     width:100%;
@@ -12,7 +12,7 @@ body {
     font-family: arial;
     margin: 0px;
     padding: 0px;
-    background: $sub-background-color;
+    background: $sub-background-color-one;
 }
 
 h1, h2, h3, h4 {
