@@ -1,0 +1,69 @@
+---
+layout: default
+title: "21 Ducks: Aylesbury United Supporters Trust"
+permalink: index.html
+tags: [football, soccer, trust, supporters, aylesbury, aylesbury united]
+description: "TBC"
+---
+<div class="content-latest">
+    <div class="post-latest">
+        <h2>Latest News</h2>
+        {% assign latestpost = site.posts.first %}
+        <h3><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h3>
+        <img src="{{ latestpost.image }}" />
+        <p>{{ latestpost.description }}</p>
+        <small>
+            <span class="date">{{ latestpost.date | date: '%B %d, %Y' }}</span>
+            <span class="tags">
+                {% for tag in latestpost.tags %}
+                {% if forloop.last %}
+                    #{{ tag }}
+                {% else %}
+                    #{{ tag }}
+                {% endif %}
+                {% endfor %}
+            </span>
+        </small>
+        <p><a href="/blog.html">More posts</a></p>
+    </div>
+    <div class="video-latest">
+        <h2>Latest Video</h2>
+        {% assign video = site.videos.last %}
+        <h3><a href="{{ video.url }}">{{ video.title }}</a></h3>
+        {{ video.content }}
+        <p>{{ video.description }}</p>
+        <small>
+            <span class="date">{{ video.date | date: '%B %d, %Y' }}</span>
+            <span class="tags">
+            {% for tag in video.tags %}
+                {% if forloop.last %}
+                    #{{ tag }}
+                {% else %}
+                    #{{ tag }}
+                {% endif %}
+            {% endfor %}
+            </span>
+        </small>
+        <p><a href="/videos.html">More videos</a></p>
+    </div>
+</div>
+<h2>News</h2>
+{% for post in site.posts limit:9 offset:1 %}
+  <div class="post-snippet">
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p>{{ post.description }}</p>
+    <small>
+      <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+      <span class="tags">
+        {% for tag in post.tags %}
+          {% if forloop.last %}
+              #{{ tag }}
+          {% else %}
+              #{{ tag }}
+          {% endif %}
+        {% endfor %}
+      </span>
+    </small>
+  </div>
+{% endfor %}
+<p><a href="/blog.html">More posts</a></p>
