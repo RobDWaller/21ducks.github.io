@@ -1,4 +1,5 @@
 $base-color: rgb(24,150, 76);
+$sub-color: rgb(218, 165, 32);
 $base-background-color: rgb(24, 150, 76);
 $sub-background-color-one: rgb(217, 217, 217);
 
@@ -53,7 +54,7 @@ ol {
 
     h3 a {
         text-decoration: none;
-        color: rgb(14, 8, 35);
+        color: $sub-color;
     }
 
     p a {

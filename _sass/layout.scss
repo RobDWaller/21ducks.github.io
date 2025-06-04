@@ -74,7 +74,7 @@ header {
             }
 
             a {
-                color: rgb(14, 8, 35);
+                color: $sub-color;
             }
         }
 
@@ -83,7 +83,7 @@ header {
             display: block;
             color: white;
             font-weight: bold;
-            background: rgb(14, 8, 35);
+            background: $sub-color;
             box-sizing: border-box;
 
             h2 {
@@ -203,7 +203,7 @@ footer {
     text-align: center;
     box-sizing: border-box;
     padding:0px 20px;
-    background: rgb(14, 8, 35);
+    background: $sub-color;
     color: white;
 
     a {
