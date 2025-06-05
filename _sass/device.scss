@@ -1,0 +1,131 @@
+// Tablet
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        width: 1060px;
+    }
+
+    section {
+        width: 640px;
+    }
+}
+
+// Mobile
+@media screen and (max-width: 1060px) {
+    .wrapper, .content {
+        width: 100%;
+        margin: 0px;
+        flex-direction: column-reverse;
+
+        section {
+            margin-top: 48px;
+            width: 100%;
+            padding: 0px 20px 20px;
+
+            blockquote {
+                margin: 20px 0px;
+            }
+        }
+
+        .sidebar {
+            width: 100%;
+            margin-top: 0px;
+        
+            .avatar {
+                display: none;
+                min-height: 0px;
+            }
+
+            .bio, .contact {
+                width: 100%;
+            }
+        }
+    }
+
+    .content {
+        flex-direction: column;
+
+        .img-holder {
+            width: 100%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .content-latest {
+        flex-direction: column;
+
+        .video-latest, .post-latest {
+            width: 100%;
+            padding: 0px;
+
+            h3, p {
+                -webkit-line-clamp: unset;
+            }
+
+            img {
+                max-height: 200px;
+            }
+
+            iframe {
+                height: 200px;
+            }
+        }
+    }
+
+    header {
+
+        ul{
+            display: none;
+            float: none;
+
+            li {
+                width: 100%;
+                display: block;
+                box-sizing: border-box;
+                padding:10px 20px;
+
+                a {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+
+        .hamburger {
+            display: block;
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            height: 48px;
+            width: 48px;
+        }
+
+        .hamburger__line {
+            width: 24px;
+            background: white;
+            height: 2px;
+            margin: 6px 12px;
+            display: block;
+        }
+
+        .hamburger__line-first {
+            margin-top:15px;
+        }
+
+        .menu--on {
+            display: block;
+        }
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,149 @@
+$base-color: rgb(24,150, 76);
+$sub-color: rgb(218, 165, 32);
+$base-background-color: rgb(24, 150, 76);
+$sub-background-color-one: rgb(217, 217, 217);
+
+@import "reset";
+@import "layout";
+@import "device";
+
+body {
+    width:100%;
+    font-size: 90%;
+    font-family: arial;
+    margin: 0px;
+    padding: 0px;
+    background: $sub-background-color-one;
+}
+
+h1, h2, h3, h4 {
+    line-height:1.5em;
+    font-weight: 900;
+    margin: 0.5em 0;
+    color: $base-color;
+    font-family: arial;
+}
+
+p, li {
+    line-height:1.5em;
+    margin: 0.75em 0;
+    font-size: 1.25em;
+}
+
+.content p {
+    margin: 1.5em 0;
+}
+
+a {
+    color: $base-color;
+}
+
+li {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ol {
+    li {
+        list-style-type: decimal;
+    }
+}
+
+.post-snippet, .post-latest, .video-latest {
+    border-bottom: 1px solid rgb(217, 217, 217);
+
+    h3 a {
+        text-decoration: none;
+        color: $sub-color;
+    }
+
+    p a {
+        color: $base-color;
+    }
+}
+
+.post-latest, .video-latest {
+    h3 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+    }
+
+    p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+    }
+}
+
+.date {
+    color: rgb(164, 164, 164);
+}
+
+.tags {
+    color: $base-color;
+}
+
+.post {
+    ol, ul {
+        margin-left: 20px;
+    }
+}
+
+small {
+    font-size: 0.95em;
+    line-height: 1.5em;
+    display: block;
+    margin: 1.25em 0;
+}
+
+p small {
+    font-size: 0.7em;
+    line-height: 1em;
+}
+
+h1 {
+    font-size:2.5em;
+}
+
+h2 {
+    font-size:2em;
+    margin: 1em 0 0.5em 0;
+}
+
+h3 {
+    font-size:1.5em;
+}
+
+h4 {
+    font-size:1.25em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+blockquote {
+    border-left: 4px solid rgb(217, 217, 217);
+    padding: 5px 20px;
+    margin: 20px 10px;
+    background: rgba(217, 217, 217, 0.1);
+    
+    p {
+        font-family: arial;
+    }
+}
+
+ul {
+    margin: 20px 0px;
+}
+
+iframe {
+    margin: 20px 0px;
+}
