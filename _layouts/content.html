@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        {% include meta.html %}
+    </head>
+    <body>
+        {% include header.html %}
+        <div class="content">
+            {% if page.image %}
+            <div class="img-holder">
+                <img src="{{ page.image }}" alt="{{ page.alt_text }}" />
+                {% if page.image_source %}
+                    <a href="{{ page.image_source }}" target="_blank">Source</a>
+                {% endif %}
+            </div>   
+            {% endif %}
+            <section>
+                {{ content }}
+            </section>
+        </div>
+        {% include footer.html %}
+    </body>
+</html>

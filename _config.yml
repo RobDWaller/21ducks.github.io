@@ -1,2 +1,7 @@
 title: "21 Ducks: Aylesbury United Supporters Trust"
 description: "The Supporters Trust for Aylesbury United"
+
+collections:
+    videos:
+        output: true
+        permalink: /:collection/:name
