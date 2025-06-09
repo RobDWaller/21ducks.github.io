@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: videos.html
+title: "Videos"
+description: "Aylesbury United's latest videos."
+---
+<h1>{{ page.title}}</h1>
+{% for video in site.videos reversed %}
+  <div class="post-snippet">
+    <h3><a href="{{ video.url }}">{{ video.title }}</a></h3>
+    <p>{{ video.description }}</p>
+    <small>
+        <span class="date">{{ video.date | date: '%B %d, %Y' }}</span>
+        <span class="tags">
+            {% for tag in video.tags %}
+            {% if forloop.last %}
+                #{{ tag }}
+            {% else %}
+                #{{ tag }}
+            {% endif %}
+            {% endfor %}
+        </span>
+    </small>
+  </div>
+{% endfor %}
