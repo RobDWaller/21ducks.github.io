@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Lorem Ipsum Post One"
+title: "Aylesbury United Builed 200,000 Seater Stadium"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ante et mauris gravida cursus eu ut nisi. Quisque iaculis nisl ut quam rutrum, ornare accumsan neque tempus."
-tags: [soccer, football, aylesbury united]
+tags: [soccer, football, aylesbury_united]
 image: "https://images.nightcafe.studio/jobs/iKlsVBpbWEaT5H9vWXlu/iKlsVBpbWEaT5H9vWXlu--0--op5s3.jpg?tr=w-1600,c-at_max"
 alt_text: "A football pitch"
 image_source: ""
