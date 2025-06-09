@@ -24,7 +24,7 @@ description: "TBC"
                 {% endfor %}
             </span>
         </small>
-        <p><a href="/blog.html">More posts</a></p>
+        <p><a href="/news.html">More news</a></p>
     </div>
     <div class="video-latest">
         <h2>Latest Video</h2>
@@ -37,6 +37,7 @@ description: "TBC"
             <span class="tags">
             {% for tag in video.tags %}
                 {% if forloop.last %}
+                
                     #{{ tag }}
                 {% else %}
                     #{{ tag }}
@@ -66,4 +67,4 @@ description: "TBC"
     </small>
   </div>
 {% endfor %}
-<p><a href="/blog.html">More posts</a></p>
+<p><a href="/news.html">More news</a></p>
