@@ -7,9 +7,21 @@ header {
     left: 0px;
     min-height: 48px;
     z-index: 1;
-
-    img {
-        height: 48px;
+    
+    a.logo {
+        display:block;
+        height:38px; 
+        padding:5px 20px; 
+        color:white; 
+        float:left; 
+        line-height: 38px; 
+        text-decoration: none;    
+    
+        img {
+            height: 38px;
+            padding-right: 20px;
+            float: left;
+        }
     }
 
     ul {
@@ -52,11 +64,14 @@ header {
         box-sizing: border-box;
         margin-top: 48px;
 
-        .avatar { 
+        .avatar {
+            background-color: $sub-background-color-one;
+            
             img {
                 display: block;
-                width: 100%;
-                min-height: 380px;
+                width: 90%;
+                height: auto;
+                padding: 20px 5%;
             }
         }
     
