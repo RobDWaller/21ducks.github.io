@@ -253,4 +253,53 @@ footer {
     a {
         color: $base-color;
     }
+
+    .sitemap {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin: 0px auto;
+        
+        div {
+            display: block;
+            box-sizing: border-box;
+            width: 33%;
+            padding: 20px;
+
+            ul {
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        width: 190px;
+        margin: 0px auto;
+
+        div {
+            display: block;
+            width: 20px;
+
+            a {
+                display: block;
+                width: 100%;
+
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
