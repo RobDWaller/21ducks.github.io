@@ -16,7 +16,17 @@ header {
         float:left; 
         line-height: 38px; 
         text-decoration: none;    
+        font-weight: bold;
+        font-size: 1.25em;
     
+        .full {
+            display: inline;
+        }
+
+        .acronym {
+            display: none;
+        }
+
         img {
             height: 38px;
             padding-right: 20px;
@@ -257,18 +267,23 @@ footer {
     .sitemap {
         display: flex;
         flex-direction: row;
-        width: 60%;
+        width: 630px;
+        padding: 0px 5px;
         margin: 0px auto;
         
         div {
             display: block;
             box-sizing: border-box;
-            width: 33%;
+            width: 210px;
             padding: 20px;
+            margin: 0px inherit;
 
             ul {
                 li {
                     list-style: none;
+                    text-align: left;
+                    margin-top: 0.25em;
+                    margin-bottom: 0em;
 
                     a {
                         text-decoration: none;
