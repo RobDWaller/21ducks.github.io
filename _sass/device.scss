@@ -94,6 +94,16 @@
 
     header {
 
+        a.logo {
+            .full {
+                display: none;
+            }
+
+            .acronym {
+                display: inline;
+            }
+        }
+
         ul{
             display: none;
             float: none;
