@@ -155,11 +155,17 @@
         width: 100%;
 
         .sitemap {
-
-            width: 480px;
+            width: 360px;
+            padding: 0px;
 
             div {
-                width: 160px;
+                width: 120px;
+
+                ul {
+                    li {
+                        margin-left: 0px;
+                    }
+                }
             }
         }
     }
