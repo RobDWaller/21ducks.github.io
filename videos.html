@@ -5,6 +5,7 @@ title: "Videos"
 description: "Aylesbury United's latest videos."
 ---
 <h1>{{ page.title}}</h1>
+<small><a href="/">Home</a> > {{ page.title }}</small>
 {% for video in site.videos reversed %}
   <div class="post-snippet">
     <h3><a href="{{ video.url }}">{{ video.title }}</a></h3>
