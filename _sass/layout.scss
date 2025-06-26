@@ -74,6 +74,30 @@ header {
         box-sizing: border-box;
         margin-top: 48px;
 
+        .menu {
+            padding: 20px;
+            display: block;
+            color: white;
+            font-weight: bold;
+            background: $sub-color;
+            box-sizing: border-box;
+
+            ul {
+                li:first-child {
+                    margin-left: 0px;
+                }
+                
+                li {
+                    list-style: none;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
         .avatar {
             background-color: $sub-background-color-one;
             
@@ -99,7 +123,7 @@ header {
             }
 
             a {
-                color: $sub-color;
+                color: white;
             }
         }
 
