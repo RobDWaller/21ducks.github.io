@@ -1,7 +1,17 @@
 <div class="sidebar">
-    <div class="avatar">
-        <img class="profile-pic" src="/assets/img/aufc-team.jpg" loading="lazy" alt="21 Ducks Aylesbury United Supporters Trust Logo" />
-    </div>
+    {% if page.menu == "about" %}
+        <div class="menu">
+            {% include about-menu.html %}
+        </div>
+    {% elsif page.menu == "members" %}
+        <div class="menu">
+            {% include members-menu.html %}
+        </div>
+    {% else %}
+        <div class="avatar">
+            <img class="profile-pic" src="/assets/img/aufc-team.jpg" loading="lazy" alt="21 Ducks Aylesbury United Supporters Trust Logo" />
+        </div>
+    {% endif %}
     <div class="bio">
         <h2>Information</h2>
         <p>{{ site.description }}</p>
