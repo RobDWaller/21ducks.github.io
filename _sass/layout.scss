@@ -234,6 +234,57 @@ header {
         .tags {
             margin-bottom: 30px;
         }
+
+        .membership-type {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid $base-color;
+            margin: 20px 0px;
+            padding: 0px;
+
+            .header {
+                h2 {
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    padding: 10px 20px;
+                }
+            }
+
+            .green {
+                background-color: $base-color;
+
+                h2 {
+                    color: white;
+                }
+            }
+
+            .white {
+                border-bottom: 1px solid $base-color;
+            }
+
+            .gold {
+                background-color: $sub-color;
+
+                h2 {
+                    color: white;
+                }
+            }
+
+            .features {
+                padding: 10px 20px;
+
+                ul {
+                    li {
+                        list-style: none;
+                        margin-left: 0px;
+                    }
+
+                    li:first-child {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
     }
 }
 
