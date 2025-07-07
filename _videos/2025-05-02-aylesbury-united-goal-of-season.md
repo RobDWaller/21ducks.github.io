@@ -1,7 +1,7 @@
 ---
 layout: video
 title: "GOAL OF THE SEASON 2024-25 | Top 5 best Ducks' goals"
-published: true
+published: false
 description: "Check out the best five goals scored by the Ducks in the 2024-25 Pitching In Southern League Division One Central season."
 tags: [goals, top_5, aylesbury_united]
 ---

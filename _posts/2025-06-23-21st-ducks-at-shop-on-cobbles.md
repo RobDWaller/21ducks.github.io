@@ -3,7 +3,6 @@ layout: post
 title: "21st Century Ducks Make a Splash at Shop on the Cobbles!"
 description: "On Sunday, June 22nd, 2025, the Aylesbury United Supporters Trust, 21st Century Ducks, had a fantastic day at the Aylesbury Town Council's Shop on the Cobbles event!"
 tags: [21Ducks, aylesbury, event, community]
-image: "/assets/img/shop-cobbles.jpeg"
 alt_text: "21 Ducks Marquee at Shop on the Cobbles"
 image_source: ""
 published: true
