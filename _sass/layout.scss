@@ -297,6 +297,24 @@ header {
                 }
             }
         }
+
+        .profile {
+
+            display: block;
+            overflow: hidden;
+            margin: 20px 0px;
+
+            img {
+                float: left;
+                width: 100px;
+                margin-right: 20px;
+                background: $sub-background-color-one;
+            }
+
+            h2 {
+                margin-top: 0px;
+            }
+        }
     }
 }
 
