@@ -328,7 +328,7 @@ header {
     display: flex;
     flex-direction: row;
 
-    .post-latest {
+    .post-latest, .video-latest, .event-latest {
         box-sizing: border-box;
         width: 50%;
         padding: 20px 20px 20px 0px;
@@ -339,18 +339,18 @@ header {
             display: block;
             object-fit: cover;
         }
-    }
-
-    .video-latest {
-        box-sizing: border-box;
-        width: 50%;
-        padding: 20px 0px 20px 20px;
 
         iframe {
             width: 100%;
             height: 150px;
             margin: 0px;
         }
+    }
+
+    .event-latest {
+        box-sizing: border-box;
+        width: 50%;
+        padding: 20px 0px 20px 20px;
     }
 }
 
