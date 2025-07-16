@@ -49,7 +49,7 @@ ol {
     }
 }
 
-.post-snippet, .post-latest, .video-latest {
+.post-snippet, .post-latest, .video-latest, .event-latest {
     border-bottom: 1px solid rgb(217, 217, 217);
 
     h3 a {
@@ -62,7 +62,7 @@ ol {
     }
 }
 
-.post-latest, .video-latest {
+.post-latest, .video-latest, .event-latest {
     h3 {
         display: -webkit-box;
         -webkit-box-orient: vertical;
