@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "21 Ducks: Aylesbury United Supporters Trust Joins Social Media!"
+title: "Aylesbury United Supporters Trust Joins Social Media!"
 description: "Great news, Ducks fans! We're excited to announce that 21 Ducks, the Aylesbury United Supporters Trust, has officially joined social media! "
 tags: [21Ducks, aylesbury, social-media, twitter, youtube]
 alt_text: "Duck doing social media on their phone"
