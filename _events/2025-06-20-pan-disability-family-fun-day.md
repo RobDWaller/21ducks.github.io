@@ -1,8 +1,9 @@
 ---
 layout: event
-title: "Aylesbury United FC Pan Disability Team Hosts Family Fun Day!"
+title: "Family Fun Day! Hosted by Aylesbury United FC Pan Disability Team"
 published: true
 description: "Get ready for a fantastic day of football, fun, and community spirit! The Aylesbury United FC Pan Disability Team is thrilled to announce their upcoming Family Fun Day!"
+image: /assets/img/default_duck.jpeg
 tags: [football, pan_disability, aylesbury_united, event]
 ---
 Get ready for a fantastic day of football, fun, and community spirit! The Aylesbury United FC Pan Disability Team is thrilled to announce their upcoming Family Fun Day!
