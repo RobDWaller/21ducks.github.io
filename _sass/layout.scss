@@ -298,7 +298,7 @@ header {
             }
         }
 
-        iframe.fan-forum, iframe.fifty-draw {
+        iframe.fan-forum, iframe.fifty-draw, iframe.member-signup {
             width: 100%;
             height: 650px;
             border: none;
@@ -307,6 +307,10 @@ header {
 
         iframe.fifty-draw {
             height: 1200px;
+        }
+
+        iframe.member-signup {
+            height: 1350px;
         }
 
         .profile {
