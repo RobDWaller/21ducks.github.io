@@ -295,14 +295,44 @@ header {
                         font-weight: bold;
                     }
                 }
+
+                button {
+                    display: block;
+                    width: 100%;
+                    background-color: $base-color;
+                    color: white;
+                    padding: 10px;
+                    text-align: center;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 1.5em;
+                    border: none;
+                    cursor: pointer;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
             }
         }
 
-        iframe.fan-forum {
+        iframe.fan-forum, iframe.fifty-draw, iframe.member-signup {
             width: 100%;
             height: 650px;
             border: none;
             margin-top: 20px;
+        }
+
+        iframe.fifty-draw {
+            height: 1200px;
+        }
+
+        iframe.member-signup {
+            height: 1350px;
         }
 
         .profile {
