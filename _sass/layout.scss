@@ -335,6 +335,51 @@ header {
             height: 1350px;
         }
 
+        .league-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+
+            th, td {
+                padding: 10px;
+                text-align: center;
+                border: 1px solid $base-color;
+            }
+
+            th {
+                background-color: $sub-color;
+                color: white;
+            }
+
+            tr:nth-child(even) {
+                background-color: $sub-background-color-one;
+            }
+
+            tr:first-child td {
+                border-bottom: 2px dashed $sub-color;
+            }
+
+            tr:nth-child(2) td {
+                border-top: none;
+            }
+
+            tr:nth-child(5) td {
+                border-bottom: 2px dashed $base-color;
+            }
+
+            tr:nth-child(6) td {
+                border-top: none;
+            }
+
+            tr:nth-last-child(4) td {
+                border-bottom: none;
+            }
+
+            tr:nth-last-child(3) td {
+                border-top: 2px dashed red;
+            }
+        }
+
         .profile {
 
             display: block;
