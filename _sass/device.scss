@@ -40,6 +40,11 @@
             blockquote {
                 margin: 20px 0px;
             }
+
+            .league-table tr th:nth-child(7), .league-table tr td:nth-child(7), .league-table tr th:nth-child(8), 
+            .league-table tr td:nth-child(8), .league-table tr th:nth-child(9), .league-table tr td:nth-child(9) {
+                display: none;
+            }
         }
 
         .sidebar {
