@@ -2,3 +2,7 @@ Gemfile.lock
 _site
 .sass-cache
 .club_data
+node_modules
+package-lock.json
+assets/js/bundle.min.js
+assets/js/bundle.min.js.map
