@@ -1,17 +1,19 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const closePopupBtn = document.getElementById('closePopup');
-    const popupOverlay = document.getElementById('popupOverlay');
+'use strict';
 
-    // Function to show the pop-up
-    function showPopup() {
-        popupOverlay.classList.remove('hidden');
-    }
+const closePopupBtn = document.getElementById('closePopup');
+const popupOverlay = document.getElementById('popupOverlay');
 
-    // Function to hide the pop-up
-    function hidePopup() {
-        popupOverlay.classList.add('hidden');
-    }
+// Function to show the pop-up
+export function showPopup() {
+    popupOverlay.classList.remove('hidden');
+}
 
+// Function to hide the pop-up
+export function hidePopup() {
+    popupOverlay.classList.add('hidden');
+}
+
+export function initPopup() {
     // Event listener for closing the pop-up
     closePopupBtn.addEventListener('click', hidePopup);
 
@@ -30,4 +32,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     showPopup();
-});
+}
