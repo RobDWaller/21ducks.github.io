@@ -33,6 +33,9 @@
     <small>&copy; 21st Century Ducks: Aylesbury United Supporters Trust</small>
 </footer>
 {% if page.popup %}
+<input type="hidden" value="on" id="popup" />
+{% else %}
+<input type="hidden" value="off" id="popup" />
 {% endif %}
 <div id="popupOverlay" class="hidden">
     <div id="popupContent">

@@ -10,5 +10,7 @@ window.onload = function() {
        toggleMenu();
     });
 
-    initPopup();
-};
+    if (document.getElementById('popup').value === 'on') {
+        initPopup();
+    }
+}
