@@ -14,3 +14,13 @@
     /** Make the buttons a bit rounder **/
     --cc-btn-border-radius: 10px;
 }
+
+#cookie-settings {
+    background-color: $sub-color;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
