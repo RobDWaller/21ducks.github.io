@@ -4,7 +4,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   mode: 'production', // Enables Webpack's built-in optimizations, including some minification
-  entry: './js/src/index.js', // Your main JavaScript file
+  entry: './_js/src/index.js', // Your main JavaScript file
   output: {
     filename: 'bundle.min.js', // Output minified file name
     path: path.resolve(__dirname, 'assets/js'), // Output directory

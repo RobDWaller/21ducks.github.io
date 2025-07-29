@@ -45,7 +45,7 @@ Thank you to everyone who took part in our recent member and former member surve
 Please set up your membership payment for the season. We’re requesting members pay **£2.50 (or more)** a month via standing order (if you previously paid yearly).
 
 **Bank details:**
-* Account Name: 21CD
+* Account Name: 21st Century Ducks
 * Account Number: 84748133
 * Sort Code: 60-17-43
 * Bank: NatWest
