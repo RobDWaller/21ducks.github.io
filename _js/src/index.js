@@ -3,14 +3,7 @@
 import { toggleMenu } from './menu.js';
 import { initPopup } from './popup.js';
 import * as CookieConsent from 'vanilla-cookieconsent';
-
-function removeAllIframes() {
-    const iframes = document.querySelectorAll('iframe');
-    iframes.forEach(iframe => {
-        iframe.remove();
-    });
-    console.log(`Removed ${iframes.length} iframe(s) from the page`);
-}
+import { removeAllIframes } from './iframes.js';
 
 window.onload = function() {
     document.getElementById('hamburger').addEventListener('click', function(e) {
