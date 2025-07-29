@@ -29,9 +29,10 @@ window.onload = function() {
             translations: {
                 en: {
                     consentModal: {
-                        title: 'We use cookies',
-                        description: 'This site has some third-party integrations which may use cookies, select' +
-                        ' "Reject all" to disable these integrations.',
+                        title: 'Cookie Information',
+                        description: 'This site has some third-party integrations which may use cookies, this ' +
+                        'includes our sign up forms powered by Google Forms, select "Reject all" to disable these ' +
+                        'integrations and avoid all cookies.',
                         acceptAllBtn: 'Accept all',
                         acceptNecessaryBtn: 'Reject all'
                     },          
