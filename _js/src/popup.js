@@ -33,3 +33,26 @@ export function initPopup() {
 
     showPopup();
 }
+
+export function showMessage(message) {
+    const div = document.createElement('div');
+    div.className = 'message-box';
+
+    // Add Message Text
+    const textContent = document.createElement('p');
+    textContent.textContent = message;
+
+    // Create close button
+    const closeBtn = document.createElement('button');
+    closeBtn.textContent = 'x';
+
+    // Add close functionality
+    closeBtn.addEventListener('click', function() {
+        div.remove();
+    });
+
+    // Assemble and add to page
+    div.appendChild(textContent);
+    div.appendChild(closeBtn);
+    document.body.appendChild(div);
+}
