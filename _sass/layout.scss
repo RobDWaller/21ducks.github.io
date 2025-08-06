@@ -339,7 +339,7 @@ header {
             height: 1450px;
         }
 
-        .league-table {
+        .league-table, .fixtures {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
@@ -358,7 +358,9 @@ header {
             tr:nth-child(even) {
                 background-color: $sub-background-color-one;
             }
+        }
 
+        .league-table { 
             tr:first-child td {
                 border-bottom: 2px dashed $sub-color;
             }

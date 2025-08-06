@@ -45,6 +45,10 @@
             .league-table tr td:nth-child(8), .league-table tr th:nth-child(9), .league-table tr td:nth-child(9) {
                 display: none;
             }
+
+            .fixtures tr th:nth-child(5), .fixtures tr td:nth-child(5) {
+                display: none;
+            }
         }
 
         .sidebar {
