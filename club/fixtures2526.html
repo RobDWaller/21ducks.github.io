@@ -11,7 +11,6 @@ description: "Complete fixture list for Aylesbury United for 2025/2026 season."
             <th scope="col">Kick Off</th>
             <th scope="col">Home Team</th>
             <th scope="col">Away Team</th>
-            <th scope="col">Venue</th>
             <th scope="col">Competition</th>
         </tr>
     </thead>
@@ -36,13 +35,6 @@ description: "Complete fixture list for Aylesbury United for 2025/2026 season."
                     <strong>{{ fixture.awayTeam }}</strong>
                 {% else %}
                     {{ fixture.awayTeam }}
-                {% endif %}
-            </td>
-            <td>
-                {% if fixture.venue == 'Home' %}
-                    <span class="badge bg-success">{{ fixture.venue }}</span>
-                {% else %}
-                    <span class="badge bg-primary">{{ fixture.venue }}</span>
                 {% endif %}
             </td>
             <td class="d-none d-md-table-cell">
