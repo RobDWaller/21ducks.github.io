@@ -416,7 +416,7 @@ header {
     display: flex;
     flex-direction: row;
 
-    .post-latest, .video-latest, .event-latest {
+    .post-latest, .video-latest, .event-latest, .fixture-latest {
         box-sizing: border-box;
         width: 50%;
         padding: 20px 20px 20px 0px;
@@ -435,7 +435,7 @@ header {
         }
     }
 
-    .event-latest {
+    .event-latest, .fixture-latest {
         box-sizing: border-box;
         width: 50%;
         padding: 20px 0px 20px 20px;
