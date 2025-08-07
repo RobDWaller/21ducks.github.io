@@ -1,0 +1,56 @@
+---
+layout: default
+title: "Aylesbury United Fixtures 25/26"
+description: "Complete fixture list for Aylesbury United for 2025/2026 season."
+---
+<h1>{{ page.title }}</h1>
+<small><a href="/">Home</a> > {{ page.title }}</small>
+<p>Games can be cancelled or rearranged at short notice and this page may not always be up to date. Please check the 
+Southern League <a href="https://southern-football-league.co.uk/fixtures/AylesburyUtd/2025/2026/P" target="_blank">
+website</a> for the latest information. Alternatively, you can get fixture updates by following the 
+<a href="https://x.com/21DucksTrust" target="_blank">Trust</a> or 
+<a href="https://x.com/AylesburyUtdFC" target="_blank">Club</a> on X (formerly Twitter).</p>
+<table class="fixtures">
+    <thead>
+        <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Kick Off</th>
+            <th scope="col">Home Team</th>
+            <th scope="col">Away Team</th>
+            <th scope="col">Competition</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for fixture in site.data.fixtures_sld1c_2526.fixtures %}
+        <tr{% if fixture.venue == 'Home' %} class="table-success"{% endif %}>
+            <td>
+                {% assign date_parts = fixture.date | split: '-' %}
+                {% assign formatted_date = date_parts[2] | append: '/' | append: date_parts[1] | append: '/' | append: date_parts[0] %}
+                {{ formatted_date }}
+            </td>
+            <td>{{ fixture.kickoff }}</td>
+            <td>
+                {% if fixture.homeTeam == 'Aylesbury United' %}
+                    <strong>{{ fixture.homeTeam }}</strong>
+                {% else %}
+                    {{ fixture.homeTeam }}
+                {% endif %}
+            </td>
+            <td>
+                {% if fixture.awayTeam == 'Aylesbury United' %}
+                    <strong>{{ fixture.awayTeam }}</strong>
+                {% else %}
+                    {{ fixture.awayTeam }}
+                {% endif %}
+            </td>
+            <td class="d-none d-md-table-cell">
+                {% if fixture.competition == 'Southern League Div One Central' %}
+                    SLD1C    
+                {% else %}
+                    {{ fixture.competition }}
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

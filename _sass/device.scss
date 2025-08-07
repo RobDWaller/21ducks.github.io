@@ -45,6 +45,10 @@
             .league-table tr td:nth-child(8), .league-table tr th:nth-child(9), .league-table tr td:nth-child(9) {
                 display: none;
             }
+
+            .fixtures tr th:nth-child(5), .fixtures tr td:nth-child(5) {
+                display: none;
+            }
         }
 
         .sidebar {
@@ -79,7 +83,7 @@
     .content-latest {
         flex-direction: column;
 
-        .video-latest, .post-latest, .event-latest {
+        .video-latest, .post-latest, .event-latest, .fixture-latest {
             width: 100%;
             padding: 0px;
 
