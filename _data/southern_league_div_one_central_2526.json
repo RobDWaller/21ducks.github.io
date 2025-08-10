@@ -29,7 +29,7 @@
         "goal_difference": 3,
         "points_deducted": 0,
         "points": 3,
-        "status": "promotion"
+        "status": "playoff"
       },
       {
         "position": 3,
@@ -43,7 +43,7 @@
         "goal_difference": 3,
         "points_deducted": 0,
         "points": 3,
-        "status": "promotion"
+        "status": "playoff"
       },
       {
         "position": 4,
@@ -57,7 +57,7 @@
         "goal_difference": 2,
         "points_deducted": 0,
         "points": 3,
-        "status": "promotion"
+        "status": "playoff"
       },
       {
         "position": 5,
@@ -267,7 +267,7 @@
         "goal_difference": -2,
         "points_deducted": 0,
         "points": 0,
-        "status": "relegation"
+        "status": "normal"
       },
       {
         "position": 20,
