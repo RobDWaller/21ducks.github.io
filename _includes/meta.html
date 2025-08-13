@@ -15,8 +15,11 @@ Aylesbury United Supporters Trust" />
 <meta property="og:title" content="{{ page.title | default: site.title }}" />
 <meta property="og:description" content="{{ page.description | default: site.description }}" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-{% assign default_image = site.url | append: "/assets/img/ducks-green.png" %}        
-<meta property="og:image" content="{{ page.image | default: default_image }}" />
+{% assign page_image = site.url | append: "/assets/img/ducks-green.png" %}
+{% if page.image %}
+  {% assign page_image = page.image | absolute_url %}
+{% endif %} 
+<meta property="og:image" content="{{ page_image }}" />
 {% if page.date %}
 {% assign page_date = page.date | date_to_xmlschema %}
 {% assign page_type = 'article:' | append: page_date %}
@@ -29,7 +32,7 @@ Aylesbury United Supporters Trust" />
 <meta name="twitter:creator" content="{{ site.twitter }}" />
 <meta name="twitter:title" content="{{ page.title | default: site.description }}" />
 <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
-<meta name="twitter:image" content="{{ page.image | default: default_image }}" />
+<meta name="twitter:image" content="{{ page_image }}" />
 <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
 <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
@@ -60,7 +63,7 @@ Aylesbury United Supporters Trust" />
         },
         {% endif %}
         "keywords": "{% for tag in page.tags %}{{tag}} {% endfor %}",
-        "image": "{{ default_image }}",
+        "image": "{{ page_image }}",
         "url": "{{ site.url }}{{ page.url }}",
         "description": "{{ page.description | default: site.description }}"
     }
