@@ -1,0 +1,16 @@
+name: On Scheduled Build & Deploy
+
+# Triggers the workflow at 1:01 AM every day
+on: 
+  schedule:
+    - cron: '1 1 * * *'
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  scheduled-deploy:
+    uses: ./.github/workflows/deploy.yml
