@@ -6,7 +6,7 @@ tags: [21Ducks, aylesbury_united, members, trade_mark, emblem, identity, merchan
 alt_text: "An image of monster duck in the countryside with the words, 21cd run by fans, for fans."
 image: /assets/img/21cd-run-for-banner.png
 published: true
-author: andy_martin
+author: committee
 ---
 It has come to our attention that Aylesbury United FC’s emblem has been registered as a trademark in club chairman and majority shareholder Graham Read’s personal name, without any prior consultation or prior disclosure to the Club Board or Shareholders, including 21st Century Ducks (21CD), Aylesbury United Supporters’ Trust.
  
