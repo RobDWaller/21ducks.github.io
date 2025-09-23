@@ -51,8 +51,6 @@ ol {
 }
 
 .post-snippet, .post-latest, .video-latest, .event-latest, .fixture-latest {
-    border-bottom: 1px solid rgb(217, 217, 217);
-
     h3 a {
         text-decoration: none;
         color: $sub-color;
@@ -61,6 +59,10 @@ ol {
     p a {
         color: $base-color;
     }
+}
+
+.post-snippet {
+    border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 .post-latest, .video-latest, .event-latest {
