@@ -3,7 +3,7 @@ layout: event
 title: "21CD Annual General Meeting (AGM) 2025, Save The Date"
 published: true
 description: "The AGM will be held on THURSDAY 16TH OCTOBER 2025 at 7:30 PM"
-image: /assets/img/default_duck.jpeg
+image: /assets/img/agm_duck.png
 tags: [football, aylesbury_united, event, AGM, 21CD]
 ---
 The 21CD Aylesbury United Supporters' Trust is pleased to announce the date of our upcoming Annual General Meeting (AGM).
@@ -14,7 +14,7 @@ To make it accessible for all members, particularly those living outside of Ayle
 
 ## Full Details to Follow 
 
-The Agenda, Minutes, Accounts, and specific meeting joining instructions will be sent to all members in due course.
+The Agenda, Minutes, Accounts, and the "join the meeting" instructions will be sent to all members in due course.
 
 ## Have Your Say
 
@@ -22,8 +22,6 @@ The AGM is a crucial event, offering all Trust Members a valuable opportunity to
 
 ## Not a Member Yet?
 
-If you are a fan of Aylesbury United but are not currently a member of 21CD, this is the perfect [time to join!](/members.html) Non-members can [sign up to become a member](/members.html) and gain the right to attend the AGM, vote, and participate in discussions.
+If you are a fan of Aylesbury United but not currently a member of 21CD, this is the perfect [time to join!](/members.html) Non-members can [sign up to become a member](/members.html) and gain the right to attend the AGM, vote, and participate in discussions.
 
-We look forward to seeing you there!
-
-The 21CD Committee
+We hope to see you there!
