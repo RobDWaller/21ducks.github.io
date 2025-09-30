@@ -29,7 +29,7 @@ description: "21st Century Ducks (21CD) is the Aylesbury United Supporters' Trus
     </div>
     <div class="event-latest">
         <h2>Latest Event</h2>
-        {% assign event = site.events.first %}
+        {% assign event = site.events.last %}
         <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
         <img src="{{ event.image }}" />
         <p>{{ event.description }}</p>
