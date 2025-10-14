@@ -21,36 +21,40 @@ website</a> for the latest information. Alternatively, you can get fixture updat
         </tr>
     </thead>
     <tbody>
+        {% assign today = "now" | date: '%Y-%m-%d' %}
         {% for fixture in site.data.fixtures_sld1c_2526.fixtures %}
-        <tr{% if fixture.venue == 'Home' %} class="table-success"{% endif %}>
-            <td>
-                {% assign date_parts = fixture.date | split: '-' %}
-                {% assign formatted_date = date_parts[2] | append: '/' | append: date_parts[1] | append: '/' | append: date_parts[0] %}
-                {{ formatted_date }}
-            </td>
-            <td>{{ fixture.kickoff }}</td>
-            <td>
-                {% if fixture.homeTeam == 'Aylesbury United' %}
-                    <strong>{{ fixture.homeTeam }}</strong>
-                {% else %}
-                    {{ fixture.homeTeam }}
-                {% endif %}
-            </td>
-            <td>
-                {% if fixture.awayTeam == 'Aylesbury United' %}
-                    <strong>{{ fixture.awayTeam }}</strong>
-                {% else %}
-                    {{ fixture.awayTeam }}
-                {% endif %}
-            </td>
-            <td class="d-none d-md-table-cell">
-                {% if fixture.competition == 'Southern League Div One Central' %}
-                    SLD1C    
-                {% else %}
-                    {{ fixture.competition }}
-                {% endif %}
-            </td>
-        </tr>
+            {% assign fixture_date = fixture.date | date: '%Y-%m-%d' %}
+            {% if fixture_date >= today %}
+                <tr{% if fixture.venue == 'Home' %} class="table-success"{% endif %}>
+                    <td>
+                        {% assign date_parts = fixture.date | split: '-' %}
+                        {% assign formatted_date = date_parts[2] | append: '/' | append: date_parts[1] | append: '/' | append: date_parts[0] %}
+                        {{ formatted_date }}
+                    </td>
+                    <td>{{ fixture.kickoff }}</td>
+                    <td>
+                        {% if fixture.homeTeam == 'Aylesbury United' %}
+                            <strong>{{ fixture.homeTeam }}</strong>
+                        {% else %}
+                            {{ fixture.homeTeam }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if fixture.awayTeam == 'Aylesbury United' %}
+                            <strong>{{ fixture.awayTeam }}</strong>
+                        {% else %}
+                            {{ fixture.awayTeam }}
+                        {% endif %}
+                    </td>
+                    <td class="d-none d-md-table-cell">
+                        {% if fixture.competition == 'Southern League Div One Central' %}
+                            SLD1C    
+                        {% else %}
+                            {{ fixture.competition }}
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endif %}
         {% endfor %}
     </tbody>
 </table>
