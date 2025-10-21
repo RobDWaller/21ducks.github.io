@@ -17,6 +17,6 @@ Get ready to test your general knowledge, enjoy a great evening out, and support
 
 The quiz night is open to all and every single penny raised will go directly to the Aylesbury United Supporters Trust who help fund Aylesbury United.
 
-You can come as a team or join a team on the night. So, whether you're a whiz at history, a master of movies, or a geography guru, come along and join the fun!
+You can come as a team (up to 6) or join a team on the night. So, whether you're a whiz at history, a master of movies, or a geography guru, come along and join the fun!
 
 We hope to see you there!
