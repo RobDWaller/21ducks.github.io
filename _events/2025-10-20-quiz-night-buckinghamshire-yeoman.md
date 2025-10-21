@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "21CD November Quiz Night"
+title: "21CD November Quiz Night at The Yeoman"
 published: true
 description: "The quiz will be held on TUESDAY 25TH November 2025 at 7:30 PM"
 image: /assets/img/pub_ducks.png
