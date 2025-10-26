@@ -11,16 +11,8 @@ description: "Aylesbury United's upcoming and recent events."
     <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
     <p>{{ event.description }}</p>
     <small>
-        <span class="date">{{ event.date | date: '%B %d, %Y' }}</span>
-        <span class="tags">
-            {% for tag in event.tags %}
-            {% if forloop.last %}
-                #{{ tag }}
-            {% else %}
-                #{{ tag }}
-            {% endif %}
-            {% endfor %}
-        </span>
+        <span class="date">Date: <strong>{{ event.event_date }}</strong>
+        Time: <strong>{{ event.event_time }}</strong></span>
     </small>
   </div>
 {% endfor %}
