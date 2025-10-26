@@ -8,7 +8,7 @@ event_date: Saturday, November 22nd, 2025
 event_time: 8 am - 2 pm
 tags: [football, aylesbury_united, event, duck_walk, 21CD]
 ---
-This now annual event will take place on Saturday 22nd November 2025 to coincide with a "home" fixture this season. As usual it will see a group of hardy Ducks fans walk the distance from Aylesbury to the match itself, in Chesham of course, a distance of approximately 15 (mostly scenic!) miles.
+This now annual event will take place on Saturday 22nd November 2025 to coincide with a "home" fixture this season. As usual it will see a group of hardy Ducks fans, and anyone else who'd like to join, walk the distance from Aylesbury to the match itself, in Chesham of course, a distance of approximately 15 (mostly scenic!) miles.
 
 Our chosen fundraising partner this season is Youth Concern, and proceeds from the walk will benefit this important local charity. 
 
