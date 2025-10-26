@@ -4,6 +4,8 @@ title: "Duck Walk 2025 to Chesham for Aylesbury Utd v Hitchin Town"
 published: true
 description: "The annual Duck Walk will take place on Saturday 22nd November 2025 to coincide with a \"home\" fixture this season."
 image: /assets/img/duck_walk.png
+event_date: Saturday, November 22nd, 2025
+event_time: 8 am - 2 pm
 tags: [football, aylesbury_united, event, duck_walk, 21CD]
 ---
 This now annual event will take place on Saturday 22nd November 2025 to coincide with a "home" fixture this season. As usual it will see a group of hardy Ducks fans walk the distance from Aylesbury to the match itself, in Chesham of course, a distance of approximately 15 (mostly scenic!) miles.
