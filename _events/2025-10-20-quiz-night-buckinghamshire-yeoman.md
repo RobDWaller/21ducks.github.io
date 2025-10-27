@@ -4,6 +4,8 @@ title: "21CD November Quiz Night at The Yeoman"
 published: true
 description: "The quiz will be held on TUESDAY 25TH November 2025 at 7:30 PM"
 image: /assets/img/pub_ducks.png
+event_date: Tuesday, November 25th, 2025
+event_time: 7:30 pm - 10:30 pm
 tags: [football, aylesbury_united, event, quiz, 21CD]
 ---
 Calling all Aylesbury United supporters and local quiz enthusiasts!

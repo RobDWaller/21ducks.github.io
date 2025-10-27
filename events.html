@@ -6,21 +6,32 @@ description: "Aylesbury United's upcoming and recent events."
 ---
 <h1>{{ page.title}}</h1>
 <small><a href="/">Home</a> > {{ page.title }}</small>
+{% assign today = "now" | date: '%Y-%m-%d' %}
+<h2>Upcoming</h2>
 {% for event in site.events reversed %}
-  <div class="post-snippet">
-    <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
-    <p>{{ event.description }}</p>
-    <small>
-        <span class="date">{{ event.date | date: '%B %d, %Y' }}</span>
-        <span class="tags">
-            {% for tag in event.tags %}
-            {% if forloop.last %}
-                #{{ tag }}
-            {% else %}
-                #{{ tag }}
-            {% endif %}
-            {% endfor %}
-        </span>
-    </small>
-  </div>
+  {% assign event_date = event.event_date | date: '%Y-%m-%d' %}
+  {% if event_date >= today %}
+    <div class="post-snippet">
+      <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+      <p>{{ event.description }}</p>
+      <small>
+          <span class="date">Date: <strong>{{ event.event_date }}</strong>
+          Time: <strong>{{ event.event_time }}</strong></span>
+      </small>
+    </div>
+  {% endif %}
+{% endfor %}
+<h2>Past</h2>
+{% for event in site.events reversed %}
+  {% assign event_date = event.event_date | date: '%Y-%m-%d' %}
+  {% if event_date < today %}
+    <div class="post-snippet">
+      <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+      <p>{{ event.description }}</p>
+      <small>
+          <span class="date">Date: <strong>{{ event.event_date }}</strong>
+          Time: <strong>{{ event.event_time }}</strong></span>
+      </small>
+    </div>
+  {% endif %}
 {% endfor %}

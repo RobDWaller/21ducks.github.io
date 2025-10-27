@@ -34,16 +34,8 @@ description: "21st Century Ducks (21CD) is the Aylesbury United Supporters' Trus
         <img src="{{ event.image }}" />
         <p>{{ event.description }}</p>
         <small>
-            <span class="date">{{ event.date | date: '%B %d, %Y' }}</span>
-            <span class="tags">
-                {% for tag in event.tags %}
-                {% if forloop.last %}
-                    #{{ tag }}
-                {% else %}
-                    #{{ tag }}
-                {% endif %}
-                {% endfor %}
-            </span>
+            <span class="date">Date: <strong>{{ event.event_date }}</strong><br/>
+            Time: <strong>{{ event.event_time }}</strong></span>
         </small>
         <p><a href="/events.html">More events</a></p>
     </div>
@@ -80,8 +72,8 @@ description: "21st Century Ducks (21CD) is the Aylesbury United Supporters' Trus
                 {% if fixture_date >= today %}
                 <!-- Display the fixture -->
                 <h3><a href="/club/fixtures2526.html">{{ fixture.homeTeam }} vs {{ fixture.awayTeam }}</a></h3>
-                <img src="/assets/img/default_duck.jpeg" />
-                <p>Date: <strong>{{ fixture.date | date: '%B %d, %Y' }}</strong> 
+                <img src="/assets/img/default_duck.png" />
+                <p>Date: <strong>{{ fixture.date | date: '%B %d, %Y' }}</strong><br/> 
                 Kick Off: <strong>{{ fixture.kickoff }}</strong></p>
                 <small>Competition: {{ fixture.competition }}</small>
                 <small>Please check times on day of match as games can be cancelled or rearranged at short notice.</small>
@@ -91,7 +83,7 @@ description: "21st Century Ducks (21CD) is the Aylesbury United Supporters' Trus
         {% endfor %}
     </div>
 </div>
-{% include join.html link="/members/signup.html" message="Give £2.50 Per Month! Help Bring The Ducks Home!!" %}
+{% include join.html link="/members/signup.html" message="Give £2.50 Per Month! Bring The Ducks Home!!" %}
 <h2>More News</h2>
 {% for post in site.posts limit:9 offset:1 %}
   <div class="post-snippet">
