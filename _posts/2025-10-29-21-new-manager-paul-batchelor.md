@@ -4,7 +4,7 @@ title: "Welcome Back, Paul Batchelor: Aylesbury United New First Team Manager!"
 description: "We are absolutely thrilled to welcome back Paul Batchelor as Aylesbury United's new First Team Manager!"
 tags: [21Ducks, aylesbury_united, members, manager]
 alt_text: "An image of monster duck in the countryside with the words, 21cd run by fans, for fans."
-image: /assets/img/21cd-run-for-banner.png
+image: /assets/img/paul_batch.png
 published: true
 author: committee
 ---
